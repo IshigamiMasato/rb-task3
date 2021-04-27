@@ -68,7 +68,7 @@ while first_game
   puts "1列目:enterをおしてください"
   start = gets
 
-  number1 = 7
+  number1 = rand(1..9)
   number2 = rand(1..9)
   number3 = rand(1..9)
 
@@ -80,7 +80,7 @@ while first_game
   start = gets
 
   number4 = rand(1..9)
-  number5 = 7
+  number5 = rand(1..9)
   number6 = rand(1..9)
 
   puts "|#{number1}||#{number4}|||"
@@ -92,7 +92,7 @@ while first_game
 
   number7 = rand(1..9)
   number8 = rand(1..9)
-  number9 = 7
+  number9 = rand(1..9)
 
   puts "|#{number1}||#{number4}||#{number7}|"
   puts "|#{number2}||#{number5}||#{number8}|"
